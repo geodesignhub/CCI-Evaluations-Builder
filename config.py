@@ -1,7 +1,7 @@
 settings = {
 
     "aoifile": "https://gdh-data.ams3.digitaloceanspaces.com/boundaries/Jekyll-Island.geojson",
-    "systems": ["URB", "IND", "FOR", "HYDRO","AG"],
+    "systems": ["URB", "IND", "FOR", "HYDRO","AG","GI"],
     "outputdirectory": "output",
     "workingdirectory": "working",
     "ccidata": "CCI.zip",
@@ -36,6 +36,12 @@ processchains = {
         "red": [210,220,160,170,180],
         "yellow": [0,10,11,12,],
         "green": [20,30,40,50,60,61,62,70,71,72,80,81,82,90,100,110,120,121,122,130,140,150,151,152,153,190,200,201,202] 
+    },
+    
+    "GI": {
+        "red": [11,12,60,61,62,70,71,72,80,81,82,90,100,110,120,],
+        "yellow": [0,10,11,12,180,190,200,201,202,210,220],
+        "green": [20,30,40,50,121,122,130,140,150,151,152,153,190,200,201,202,160,170,] 
     },
     
 
